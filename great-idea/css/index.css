@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5 {
 	margin-top: 1%;
 	
 }
-header{
+.header1{
 	border-bottom: solid black 3px;
 }
 .TopSection{
@@ -163,4 +163,44 @@ header{
 	  justify-content: center;
 	  margin-bottom: 5%;
   }
+
+  /*SERVICES CSS STARTS HERE */
  
+  .MainParagraphs {
+	border-bottom: solid black 3px;
+	}
+
+	.nav2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 70%;
+		
+	}
+	.nav2 a{
+		text-decoration: none;
+		color: slategray;
+	}
+
+	.header2{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		max-width: 100%;
+	}
+	.body2{
+		margin: 4% 6% 4% 6%;
+	}
+
+	.Services{
+		
+		margin: 3% 0 3% 0;
+		border-bottom: solid black 3px;
+		padding-bottom: 5%;
+	}
+	.Services h1{
+		font-size: 160%;
+	}
+	.services-header-img{
+		width: 100%;
+	}
